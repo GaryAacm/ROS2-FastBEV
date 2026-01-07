@@ -1,0 +1,325 @@
+[0.000000] (-) TimerEvent: {}
+[0.000428] (-) JobUnselected: {'identifier': 'camera_sim_pub'}
+[0.000499] (fastbev_trt_ros) JobQueued: {'identifier': 'fastbev_trt_ros', 'dependencies': OrderedDict()}
+[0.000545] (fastbev_trt_ros) JobStarted: {'identifier': 'fastbev_trt_ros'}
+[0.012597] (fastbev_trt_ros) JobProgress: {'identifier': 'fastbev_trt_ros', 'progress': 'cmake'}
+[0.013430] (fastbev_trt_ros) Command: {'cmd': ['/root/miniconda3/bin/cmake', '/root/autodl-tmp/ros2_ws/src/fastbev_trt_ros', '-DPYTHON_EXECUTABLE=/usr/bin/python3', '-DPython3_EXECUTABLE=/usr/bin/python3', '-DCMAKE_IGNORE_PATH=/root/miniconda3;/root/miniconda3/envs/fastbev', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/root/autodl-tmp/ros2_ws/src/install/fastbev_trt_ros'], 'cwd': '/root/autodl-tmp/ros2_ws/src/build/fastbev_trt_ros', 'env': OrderedDict([('LIBRARY_PATH', '/usr/local/cuda/lib64/stubs'), ('NV_LIBCUBLAS_VERSION', '11.11.3.6-1'), ('NV_NVPROF_DEV_PACKAGE', 'cuda-nvprof-11-8=11.8.87-1'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('NV_CUDA_COMPAT_PACKAGE', 'cuda-compat-11-8'), ('JUPYTER_SERVER_ROOT', '/root'), ('HOSTNAME', 'autodl-container-cedc49a0d5-ea735cf7'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/root/TensorRT-8.6.1.6/lib:/root/TensorRT-8.6.1.6/lib:/root/TensorRT-8.6.1.6/lib'), ('HOME', '/root'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/root/autodl-tmp/ros2_ws/src/camera_sim_pub'), ('AutoDLDataCenter', 'chongqingDC1'), ('NV_CUDNN_PACKAGE_NAME', 'libcudnn8'), ('NV_LIBCUBLAS_DEV_VERSION', '11.11.3.6-1'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('_CE_M', ''), ('NV_LIBNPP_PACKAGE', 'libnpp-11-8=11.8.0.86-1'), ('NV_CUDNN_PACKAGE', 'libcudnn8=8.6.0.163-1+cuda11.8'), ('CUDA_VERSION', '11.8.0'), ('PYXTERM_DIMENSIONS', '80x25'), ('NV_NVPROF_VERSION', '11.8.87-1'), ('ROS_DISTRO', 'foxy'), ('NV_LIBCUBLAS_PACKAGE_NAME', 'libcublas-11-8'), ('NVIDIA_REQUIRE_CUDA', 'cuda>=11.8 brand=tesla,driver>=450,driver<451 brand=tesla,driver>=470,driver<471 brand=unknown,driver>=470,driver<471 brand=nvidia,driver>=470,driver<471 brand=nvidiartx,driver>=470,driver<471 brand=quadrortx,driver>=470,driver<471 brand=unknown,driver>=510,driver<511 brand=nvidia,driver>=510,driver<511 brand=nvidiartx,driver>=510,driver<511 brand=quadrortx,driver>=510,driver<511 brand=unknown,driver>=515,driver<516 brand=nvidia,driver>=515,driver<516 brand=nvidiartx,driver>=515,driver<516 brand=quadrortx,driver>=515,driver<516'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NV_LIBCUSPARSE_VERSION', '11.7.5.86-1'), ('NVIDIA_DRIVER_CAPABILITIES', 'compute,utility,graphics,video'), ('NV_CUDA_LIB_VERSION', '11.8.0-1'), ('NV_NVML_DEV_VERSION', '11.8.86-1'), ('COLUMNS', '167'), ('NV_LIBNPP_DEV_PACKAGE', 'libnpp-dev-11-8=11.8.0.86-1'), ('TERM', 'xterm-256color'), ('NV_CUDA_CUDART_VERSION', '11.8.89-1'), ('_CE_CONDA', ''), ('NV_CUDNN_PACKAGE_DEV', 'libcudnn8-dev=8.6.0.163-1+cuda11.8'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/root/miniconda3/bin:/root/miniconda3/condabin:/root/miniconda3/bin:/usr/local/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/TensorRT-8.6.1.6/bin'), ('NV_LIBCUBLAS_DEV_PACKAGE_NAME', 'libcublas-dev-11-8'), ('AutoDLRegion', 'cq-A1'), ('NV_LIBCUBLAS_PACKAGE', 'libcublas-11-8=11.11.3.6-1'), ('NVARCH', 'x86_64'), ('REQUESTS_CA_BUNDLE', '/etc/ssl/certs/ca-certificates.crt'), ('AutoDLServiceURL', 'https://u808634-a0d5-ea735cf7.cqa1.seetacloud.com:8443'), ('NV_LIBCUSPARSE_DEV_VERSION', '11.7.5.86-1'), ('AutoDLContainerMonitorSetting', ''), ('NV_CUDA_CUDART_DEV_VERSION', '11.8.89-1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/root/miniconda3/bin/python'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('NV_LIBCUBLAS_DEV_PACKAGE', 'libcublas-dev-11-8=11.11.3.6-1'), ('AutoDLContainerUUID', 'cedc49a0d5-ea735cf7'), ('CONDA_DEFAULT_ENV', 'base'), ('NV_NVTX_VERSION', '11.8.86-1'), ('NV_LIBNPP_VERSION', '11.8.0.86-1'), ('AutoDLService6006URL', 'https://u808634-a0d5-ea735cf7.cqa1.seetacloud.com:8443'), ('NV_CUDNN_VERSION', '8.6.0.163'), ('PWD', '/root/autodl-tmp/ros2_ws/src/build/fastbev_trt_ros'), ('AutodlAutoPanelToken', 'jupyter-autodl-container-90d849a06f-732c6d6e-f9b52a1980e6148d194a67895d3b0b3ebd9902a84a3514920916b92e0ec5aaef6'), ('AutoDLService6008URL', 'https://uu808634-a0d5-ea735cf7.cqa1.seetacloud.com:8443'), ('CONDA_EXE', '/root/miniconda3/bin/conda'), ('MKL_NUM_THREADS', '16'), ('LINES', '42'), ('PYDEVD_USE_FRAME_EVAL', 'NO'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('OMP_NUM_THREADS', '16'), ('NVIDIA_VISIBLE_DEVICES', 'GPU-180c5752-1dc1-b042-c46b-af51f18704de'), ('CONDA_PREFIX', '/root/miniconda3'), ('TZ', 'Asia/Shanghai'), ('COLCON', '1'), ('NV_LIBNPP_DEV_VERSION', '11.8.0.86-1'), ('JUPYTER_SERVER_URL', 'http://autodl-container-cedc49a0d5-ea735cf7:8888/jupyter/'), ('AgentHost', '172.26.1.104'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.099043] (-) TimerEvent: {}
+[0.141779] (fastbev_trt_ros) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.199222] (-) TimerEvent: {}
+[0.237606] (fastbev_trt_ros) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.253730] (fastbev_trt_ros) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299404] (-) TimerEvent: {}
+[0.354160] (fastbev_trt_ros) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.390508] (fastbev_trt_ros) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.391367] (fastbev_trt_ros) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.392651] (fastbev_trt_ros) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.399482] (-) TimerEvent: {}
+[0.403692] (fastbev_trt_ros) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.499654] (-) TimerEvent: {}
+[0.524703] (fastbev_trt_ros) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.558447] (fastbev_trt_ros) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.559518] (fastbev_trt_ros) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.561077] (fastbev_trt_ros) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.565601] (fastbev_trt_ros) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.599719] (-) TimerEvent: {}
+[0.600009] (fastbev_trt_ros) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.600216] (fastbev_trt_ros) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.699891] (-) TimerEvent: {}
+[0.773818] (fastbev_trt_ros) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.799963] (-) TimerEvent: {}
+[0.800261] (fastbev_trt_ros) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.860183] (fastbev_trt_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.866035] (fastbev_trt_ros) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.900034] (-) TimerEvent: {}
+[0.956021] (fastbev_trt_ros) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.989536] (fastbev_trt_ros) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[1.000162] (-) TimerEvent: {}
+[1.080278] (fastbev_trt_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.100237] (-) TimerEvent: {}
+[1.142928] (fastbev_trt_ros) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.144572] (fastbev_trt_ros) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.145683] (fastbev_trt_ros) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.200414] (-) TimerEvent: {}
+[1.252935] (fastbev_trt_ros) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[1.253315] (fastbev_trt_ros) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.300525] (-) TimerEvent: {}
+[1.327727] (fastbev_trt_ros) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[1.328020] (fastbev_trt_ros) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.400647] (-) TimerEvent: {}
+[1.420942] (fastbev_trt_ros) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[1.423156] (fastbev_trt_ros) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.500789] (-) TimerEvent: {}
+[1.601046] (-) TimerEvent: {}
+[1.638764] (fastbev_trt_ros) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[1.701258] (-) TimerEvent: {}
+[1.776491] (fastbev_trt_ros) StdoutLine: {'line': b'-- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)\n'}
+[1.801375] (-) TimerEvent: {}
+[1.807079] (fastbev_trt_ros) StdoutLine: {'line': b'-- Found image_transport: 2.4.0 (/opt/ros/foxy/share/image_transport/cmake)\n'}
+[1.858158] (fastbev_trt_ros) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.2.0") found components: core imgproc \n'}
+[1.901511] (-) TimerEvent: {}
+[1.972673] (fastbev_trt_ros) StdoutLine: {'line': b'-- Configuring done (1.9s)\n'}
+[1.996825] (fastbev_trt_ros) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.998452] (fastbev_trt_ros) StderrLine: {'line': b'\x1b[33mCMake Warning:\n'}
+[1.998783] (fastbev_trt_ros) StderrLine: {'line': b'  Manually-specified variables were not used by the project:\n'}
+[1.998895] (fastbev_trt_ros) StderrLine: {'line': b'\n'}
+[1.999008] (fastbev_trt_ros) StderrLine: {'line': b'    Python3_EXECUTABLE\n'}
+[1.999112] (fastbev_trt_ros) StderrLine: {'line': b'\n'}
+[1.999245] (fastbev_trt_ros) StderrLine: {'line': b'\x1b[0m\n'}
+[2.001501] (fastbev_trt_ros) StdoutLine: {'line': b'-- Build files have been written to: /root/autodl-tmp/ros2_ws/src/build/fastbev_trt_ros\n'}
+[2.001791] (-) TimerEvent: {}
+[2.019958] (fastbev_trt_ros) CommandEnded: {'returncode': 0}
+[2.021610] (fastbev_trt_ros) JobProgress: {'identifier': 'fastbev_trt_ros', 'progress': 'build'}
+[2.025235] (fastbev_trt_ros) Command: {'cmd': ['/root/miniconda3/bin/cmake', '--build', '/root/autodl-tmp/ros2_ws/src/build/fastbev_trt_ros', '--', '-j192', '-l192'], 'cwd': '/root/autodl-tmp/ros2_ws/src/build/fastbev_trt_ros', 'env': OrderedDict([('LIBRARY_PATH', '/usr/local/cuda/lib64/stubs'), ('NV_LIBCUBLAS_VERSION', '11.11.3.6-1'), ('NV_NVPROF_DEV_PACKAGE', 'cuda-nvprof-11-8=11.8.87-1'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('NV_CUDA_COMPAT_PACKAGE', 'cuda-compat-11-8'), ('JUPYTER_SERVER_ROOT', '/root'), ('HOSTNAME', 'autodl-container-cedc49a0d5-ea735cf7'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/root/TensorRT-8.6.1.6/lib:/root/TensorRT-8.6.1.6/lib:/root/TensorRT-8.6.1.6/lib'), ('HOME', '/root'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/root/autodl-tmp/ros2_ws/src/camera_sim_pub'), ('AutoDLDataCenter', 'chongqingDC1'), ('NV_CUDNN_PACKAGE_NAME', 'libcudnn8'), ('NV_LIBCUBLAS_DEV_VERSION', '11.11.3.6-1'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('_CE_M', ''), ('NV_LIBNPP_PACKAGE', 'libnpp-11-8=11.8.0.86-1'), ('NV_CUDNN_PACKAGE', 'libcudnn8=8.6.0.163-1+cuda11.8'), ('CUDA_VERSION', '11.8.0'), ('PYXTERM_DIMENSIONS', '80x25'), ('NV_NVPROF_VERSION', '11.8.87-1'), ('ROS_DISTRO', 'foxy'), ('NV_LIBCUBLAS_PACKAGE_NAME', 'libcublas-11-8'), ('NVIDIA_REQUIRE_CUDA', 'cuda>=11.8 brand=tesla,driver>=450,driver<451 brand=tesla,driver>=470,driver<471 brand=unknown,driver>=470,driver<471 brand=nvidia,driver>=470,driver<471 brand=nvidiartx,driver>=470,driver<471 brand=quadrortx,driver>=470,driver<471 brand=unknown,driver>=510,driver<511 brand=nvidia,driver>=510,driver<511 brand=nvidiartx,driver>=510,driver<511 brand=quadrortx,driver>=510,driver<511 brand=unknown,driver>=515,driver<516 brand=nvidia,driver>=515,driver<516 brand=nvidiartx,driver>=515,driver<516 brand=quadrortx,driver>=515,driver<516'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NV_LIBCUSPARSE_VERSION', '11.7.5.86-1'), ('NVIDIA_DRIVER_CAPABILITIES', 'compute,utility,graphics,video'), ('NV_CUDA_LIB_VERSION', '11.8.0-1'), ('NV_NVML_DEV_VERSION', '11.8.86-1'), ('COLUMNS', '167'), ('NV_LIBNPP_DEV_PACKAGE', 'libnpp-dev-11-8=11.8.0.86-1'), ('TERM', 'xterm-256color'), ('NV_CUDA_CUDART_VERSION', '11.8.89-1'), ('_CE_CONDA', ''), ('NV_CUDNN_PACKAGE_DEV', 'libcudnn8-dev=8.6.0.163-1+cuda11.8'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/root/miniconda3/bin:/root/miniconda3/condabin:/root/miniconda3/bin:/usr/local/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/TensorRT-8.6.1.6/bin'), ('NV_LIBCUBLAS_DEV_PACKAGE_NAME', 'libcublas-dev-11-8'), ('AutoDLRegion', 'cq-A1'), ('NV_LIBCUBLAS_PACKAGE', 'libcublas-11-8=11.11.3.6-1'), ('NVARCH', 'x86_64'), ('REQUESTS_CA_BUNDLE', '/etc/ssl/certs/ca-certificates.crt'), ('AutoDLServiceURL', 'https://u808634-a0d5-ea735cf7.cqa1.seetacloud.com:8443'), ('NV_LIBCUSPARSE_DEV_VERSION', '11.7.5.86-1'), ('AutoDLContainerMonitorSetting', ''), ('NV_CUDA_CUDART_DEV_VERSION', '11.8.89-1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/root/miniconda3/bin/python'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('NV_LIBCUBLAS_DEV_PACKAGE', 'libcublas-dev-11-8=11.11.3.6-1'), ('AutoDLContainerUUID', 'cedc49a0d5-ea735cf7'), ('CONDA_DEFAULT_ENV', 'base'), ('NV_NVTX_VERSION', '11.8.86-1'), ('NV_LIBNPP_VERSION', '11.8.0.86-1'), ('AutoDLService6006URL', 'https://u808634-a0d5-ea735cf7.cqa1.seetacloud.com:8443'), ('NV_CUDNN_VERSION', '8.6.0.163'), ('PWD', '/root/autodl-tmp/ros2_ws/src/build/fastbev_trt_ros'), ('AutodlAutoPanelToken', 'jupyter-autodl-container-90d849a06f-732c6d6e-f9b52a1980e6148d194a67895d3b0b3ebd9902a84a3514920916b92e0ec5aaef6'), ('AutoDLService6008URL', 'https://uu808634-a0d5-ea735cf7.cqa1.seetacloud.com:8443'), ('CONDA_EXE', '/root/miniconda3/bin/conda'), ('MKL_NUM_THREADS', '16'), ('LINES', '42'), ('PYDEVD_USE_FRAME_EVAL', 'NO'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('OMP_NUM_THREADS', '16'), ('NVIDIA_VISIBLE_DEVICES', 'GPU-180c5752-1dc1-b042-c46b-af51f18704de'), ('CONDA_PREFIX', '/root/miniconda3'), ('TZ', 'Asia/Shanghai'), ('COLCON', '1'), ('NV_LIBNPP_DEV_VERSION', '11.8.0.86-1'), ('JUPYTER_SERVER_URL', 'http://autodl-container-cedc49a0d5-ea735cf7:8888/jupyter/'), ('AgentHost', '172.26.1.104'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[2.102005] (-) TimerEvent: {}
+[2.115202] (fastbev_trt_ros) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/fastbev_node.dir/src/fastbev_node.cpp.o\x1b[0m\n'}
+[2.202141] (-) TimerEvent: {}
+[2.302600] (-) TimerEvent: {}
+[2.403079] (-) TimerEvent: {}
+[2.503559] (-) TimerEvent: {}
+[2.604043] (-) TimerEvent: {}
+[2.704492] (-) TimerEvent: {}
+[2.804936] (-) TimerEvent: {}
+[2.905399] (-) TimerEvent: {}
+[3.005860] (-) TimerEvent: {}
+[3.106334] (-) TimerEvent: {}
+[3.206840] (-) TimerEvent: {}
+[3.307334] (-) TimerEvent: {}
+[3.407828] (-) TimerEvent: {}
+[3.508298] (-) TimerEvent: {}
+[3.608894] (-) TimerEvent: {}
+[3.709538] (-) TimerEvent: {}
+[3.810004] (-) TimerEvent: {}
+[3.910697] (-) TimerEvent: {}
+[4.011360] (-) TimerEvent: {}
+[4.112008] (-) TimerEvent: {}
+[4.212500] (-) TimerEvent: {}
+[4.312958] (-) TimerEvent: {}
+[4.413457] (-) TimerEvent: {}
+[4.514028] (-) TimerEvent: {}
+[4.614505] (-) TimerEvent: {}
+[4.715015] (-) TimerEvent: {}
+[4.815476] (-) TimerEvent: {}
+[4.915971] (-) TimerEvent: {}
+[5.016619] (-) TimerEvent: {}
+[5.117229] (-) TimerEvent: {}
+[5.217817] (-) TimerEvent: {}
+[5.318490] (-) TimerEvent: {}
+[5.419159] (-) TimerEvent: {}
+[5.519601] (-) TimerEvent: {}
+[5.620018] (-) TimerEvent: {}
+[5.720476] (-) TimerEvent: {}
+[5.821029] (-) TimerEvent: {}
+[5.921509] (-) TimerEvent: {}
+[6.022087] (-) TimerEvent: {}
+[6.122565] (-) TimerEvent: {}
+[6.223077] (-) TimerEvent: {}
+[6.323505] (-) TimerEvent: {}
+[6.423935] (-) TimerEvent: {}
+[6.524378] (-) TimerEvent: {}
+[6.624794] (-) TimerEvent: {}
+[6.725227] (-) TimerEvent: {}
+[6.825655] (-) TimerEvent: {}
+[6.926138] (-) TimerEvent: {}
+[7.026721] (-) TimerEvent: {}
+[7.127156] (-) TimerEvent: {}
+[7.227639] (-) TimerEvent: {}
+[7.328054] (-) TimerEvent: {}
+[7.428477] (-) TimerEvent: {}
+[7.528909] (-) TimerEvent: {}
+[7.629340] (-) TimerEvent: {}
+[7.729766] (-) TimerEvent: {}
+[7.830214] (-) TimerEvent: {}
+[7.930657] (-) TimerEvent: {}
+[8.031072] (-) TimerEvent: {}
+[8.131489] (-) TimerEvent: {}
+[8.231910] (-) TimerEvent: {}
+[8.332330] (-) TimerEvent: {}
+[8.432739] (-) TimerEvent: {}
+[8.533154] (-) TimerEvent: {}
+[8.633635] (-) TimerEvent: {}
+[8.734121] (-) TimerEvent: {}
+[8.834568] (-) TimerEvent: {}
+[8.935093] (-) TimerEvent: {}
+[9.035514] (-) TimerEvent: {}
+[9.135982] (-) TimerEvent: {}
+[9.236514] (-) TimerEvent: {}
+[9.337123] (-) TimerEvent: {}
+[9.437650] (-) TimerEvent: {}
+[9.538113] (-) TimerEvent: {}
+[9.638677] (-) TimerEvent: {}
+[9.739164] (-) TimerEvent: {}
+[9.839588] (-) TimerEvent: {}
+[9.940006] (-) TimerEvent: {}
+[10.040443] (-) TimerEvent: {}
+[10.140813] (-) TimerEvent: {}
+[10.241280] (-) TimerEvent: {}
+[10.341717] (-) TimerEvent: {}
+[10.442078] (-) TimerEvent: {}
+[10.542588] (-) TimerEvent: {}
+[10.643150] (-) TimerEvent: {}
+[10.743654] (-) TimerEvent: {}
+[10.844208] (-) TimerEvent: {}
+[10.944696] (-) TimerEvent: {}
+[11.045298] (-) TimerEvent: {}
+[11.145907] (-) TimerEvent: {}
+[11.246495] (-) TimerEvent: {}
+[11.255426] (fastbev_trt_ros) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable fastbev_node\x1b[0m\n'}
+[11.346647] (-) TimerEvent: {}
+[11.447190] (-) TimerEvent: {}
+[11.547815] (-) TimerEvent: {}
+[11.648467] (-) TimerEvent: {}
+[11.749101] (-) TimerEvent: {}
+[11.849734] (-) TimerEvent: {}
+[11.950292] (-) TimerEvent: {}
+[12.050893] (-) TimerEvent: {}
+[12.105028] (fastbev_trt_ros) StderrLine: {'line': b'/usr/bin/ld: warning: libcudart-a7b20f20.so.11.3.109, needed by /root/miniconda3/envs/fastbev/lib/libspconv.so, not found (try using -rpath or -rpath-link)\n'}
+[12.105844] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyInstanceMethod_Type'\n"}
+[12.106260] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyDict_DelItemString'\n"}
+[12.106610] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `_Py_Dealloc'\n"}
+[12.107024] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyByteArray_AsString'\n"}
+[12.107336] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyLong_FromLong'\n"}
+[12.107628] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyModule_Create2'\n"}
+[12.108030] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyByteArray_Type'\n"}
+[12.108349] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyLong_FromSsize_t'\n"}
+[12.108791] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyObject_SetAttrString'\n"}
+[12.109189] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyType_IsSubtype'\n"}
+[12.109523] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyErr_Fetch'\n"}
+[12.109930] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyException_SetTraceback'\n"}
+[12.110313] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyExc_RuntimeError'\n"}
+[12.110748] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyDict_Copy'\n"}
+[12.111138] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `_PyThreadState_UncheckedGet'\n"}
+[12.111489] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyEval_RestoreThread'\n"}
+[12.111896] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyDict_Size'\n"}
+[12.112714] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyExc_MemoryError'\n"}
+[12.113068] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyStaticMethod_New'\n"}
+[12.113300] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyUnicode_DecodeUTF8'\n"}
+[12.113511] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyUnicode_FromString'\n"}
+[12.113714] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyBaseObject_Type'\n"}
+[12.113912] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyNumber_Check'\n"}
+[12.114108] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyModule_Type'\n"}
+[12.114304] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyErr_WriteUnraisable'\n"}
+[12.114495] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyThread_tss_create'\n"}
+[12.114686] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyObject_HasAttrString'\n"}
+[12.114877] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyBytes_AsString'\n"}
+[12.115079] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyByteArray_Size'\n"}
+[12.115404] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyCapsule_GetContext'\n"}
+[12.115629] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `_PyType_Lookup'\n"}
+[12.115821] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyThreadState_Clear'\n"}
+[12.115979] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyErr_Clear'\n"}
+[12.116127] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyCallable_Check'\n"}
+[12.116328] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyNumber_Xor'\n"}
+[12.116500] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyCapsule_New'\n"}
+[12.116650] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyMem_Calloc'\n"}
+[12.117822] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyBuffer_Release'\n"}
+[12.118041] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyBytes_Size'\n"}
+[12.118239] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyNumber_Or'\n"}
+[12.118432] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PySequence_Size'\n"}
+[12.118624] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyExc_TypeError'\n"}
+[12.118813] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyLong_AsUnsignedLong'\n"}
+[12.118999] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyNumber_Long'\n"}
+[12.119191] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyType_Ready'\n"}
+[12.119380] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyGILState_Check'\n"}
+[12.119566] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyFloat_FromDouble'\n"}
+[12.119751] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyTuple_GetItem'\n"}
+[12.119936] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `_PyObject_GetDictPtr'\n"}
+[12.120122] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyObject_Malloc'\n"}
+[12.120356] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyTuple_SetItem'\n"}
+[12.120526] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyThread_tss_get'\n"}
+[12.120667] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyErr_Restore'\n"}
+[12.120802] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyErr_WarnEx'\n"}
+[12.120939] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyCapsule_SetName'\n"}
+[12.121127] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyThread_tss_alloc'\n"}
+[12.121316] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyLong_FromSize_t'\n"}
+[12.121505] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyList_Size'\n"}
+[12.121690] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyCFunction_Type'\n"}
+[12.121876] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyGILState_GetThisThreadState'\n"}
+[12.122065] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyBytes_AsStringAndSize'\n"}
+[12.122256] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyUnicode_AsEncodedString'\n"}
+[12.122444] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyMethod_Type'\n"}
+[12.122627] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyTuple_New'\n"}
+[12.122810] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyImport_AddModule'\n"}
+[12.122998] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyObject_CallFunctionObjArgs'\n"}
+[12.123193] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyExc_ImportError'\n"}
+[12.123384] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyErr_Occurred'\n"}
+[12.123583] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyThreadState_DeleteCurrent'\n"}
+[12.123787] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PySequence_Tuple'\n"}
+[12.124346] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyWeakref_NewRef'\n"}
+[12.124800] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyUnicode_AsUTF8String'\n"}
+[12.125039] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyEval_GetBuiltins'\n"}
+[12.125349] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyExc_ValueError'\n"}
+[12.125572] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyUnicode_FromFormat'\n"}
+[12.125918] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyNumber_And'\n"}
+[12.126300] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `_Py_FalseStruct'\n"}
+[12.126653] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyCapsule_GetName'\n"}
+[12.127728] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyExc_OverflowError'\n"}
+[12.128011] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyDict_Type'\n"}
+[12.128261] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyExc_BufferError'\n"}
+[12.128727] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyException_SetContext'\n"}
+[12.129172] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyGILState_Ensure'\n"}
+[12.130219] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyEval_AcquireThread'\n"}
+[12.130717] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyErr_SetString'\n"}
+[12.131017] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyObject_CallObject'\n"}
+[12.131265] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyThread_tss_set'\n"}
+[12.131649] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyList_GetItem'\n"}
+[12.131871] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyObject_IsInstance'\n"}
+[12.132106] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyMem_Free'\n"}
+[12.132346] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyThreadState_Get'\n"}
+[12.132795] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyNumber_Invert'\n"}
+[12.133010] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyObject_GenericSetDict'\n"}
+[12.133359] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyType_Type'\n"}
+[12.133635] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyThreadState_New'\n"}
+[12.134230] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyObject_Repr'\n"}
+[12.134469] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyProperty_Type'\n"}
+[12.134694] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyFrame_GetLineNumber'\n"}
+[12.134906] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyErr_NormalizeException'\n"}
+[12.135303] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyObject_ClearWeakRefs'\n"}
+[12.135592] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyDict_Next'\n"}
+[12.135818] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyCapsule_GetPointer'\n"}
+[12.136035] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `_Py_NoneStruct'\n"}
+[12.136243] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyInstanceMethod_New'\n"}
+[12.136641] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyDict_New'\n"}
+[12.137187] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyCapsule_SetPointer'\n"}
+[12.137441] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyObject_RichCompareBool'\n"}
+[12.137926] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyGILState_Release'\n"}
+[12.138224] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PySequence_GetItem'\n"}
+[12.138488] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `_Py_NotImplementedStruct'\n"}
+[12.138784] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyObject_GetItem'\n"}
+[12.139115] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyFrame_FastToLocals'\n"}
+[12.139347] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyObject_SetItem'\n"}
+[12.139584] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyDict_Contains'\n"}
+[12.139809] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyExc_SystemError'\n"}
+[12.140025] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyCapsule_Type'\n"}
+[12.140419] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyNumber_Float'\n"}
+[12.140828] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyLong_AsLong'\n"}
+[12.141055] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `_Py_TrueStruct'\n"}
+[12.141271] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyFloat_Type'\n"}
+[12.141596] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyExc_IndexError'\n"}
+[12.141944] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyFloat_AsDouble'\n"}
+[12.142182] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyEval_SaveThread'\n"}
+[12.142404] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyCapsule_SetContext'\n"}
+[12.142612] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `Py_GetVersion'\n"}
+[12.143211] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PySequence_Check'\n"}
+[12.143546] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyObject_GC_UnTrack'\n"}
+[12.143778] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyObject_GetAttrString'\n"}
+[12.144013] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyException_SetCause'\n"}
+[12.144232] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyList_New'\n"}
+[12.144602] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyModule_GetName'\n"}
+[12.144824] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyObject_Str'\n"}
+[12.145081] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyExc_FutureWarning'\n"}
+[12.145425] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyDict_GetItemWithError'\n"}
+[12.145645] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyErr_Format'\n"}
+[12.145879] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyObject_SetAttr'\n"}
+[12.146098] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyCFunction_NewEx'\n"}
+[12.146421] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyStaticMethod_Type'\n"}
+[12.146652] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyUnicode_AsUTF8AndSize'\n"}
+[12.146864] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyTuple_Size'\n"}
+[12.147074] (fastbev_trt_ros) StderrLine: {'line': b"/usr/bin/ld: /root/miniconda3/envs/fastbev/lib/libspconv.so: undefined reference to `PyObject_GenericGetDict'\n"}
+[12.147275] (fastbev_trt_ros) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[12.147600] (fastbev_trt_ros) StderrLine: {'line': b'make[2]: *** [CMakeFiles/fastbev_node.dir/build.make:219: fastbev_node] Error 1\n'}
+[12.147855] (fastbev_trt_ros) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/fastbev_node.dir/all] Error 2\n'}
+[12.148839] (fastbev_trt_ros) StderrLine: {'line': b'make: *** [Makefile:146: all] Error 2\n'}
+[12.149637] (fastbev_trt_ros) CommandEnded: {'returncode': 2}
+[12.153283] (-) TimerEvent: {}
+[12.159607] (fastbev_trt_ros) JobEnded: {'identifier': 'fastbev_trt_ros', 'rc': 2}
+[12.170306] (-) EventReactorShutdown: {}
