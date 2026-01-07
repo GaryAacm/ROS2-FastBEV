@@ -1,0 +1,40 @@
+[0.017s] Invoking command in '/root/autodl-tmp/ros2_ws/build/my_fastbev': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /root/miniconda3/bin/cmake /root/autodl-tmp/ros2_ws/src/fastbev_trt_ros -DPYTHON_EXECUTABLE=/usr/bin/python3 -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/root/autodl-tmp/ros2_ws/install/my_fastbev
+[0.074s] -- Found message_filters: 3.2.7 (/opt/ros/foxy/share/message_filters/cmake)
+[0.102s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.281s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.288s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.312s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.371s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.376s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.496s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.538s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.539s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.662s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[0.759s] -- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)
+[0.878s] -- Configuring done (0.8s)
+[0.943s] -- Generating done (0.0s)
+[0.949s] -- Build files have been written to: /root/autodl-tmp/ros2_ws/build/my_fastbev
+[0.966s] Invoked command in '/root/autodl-tmp/ros2_ws/build/my_fastbev' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /root/miniconda3/bin/cmake /root/autodl-tmp/ros2_ws/src/fastbev_trt_ros -DPYTHON_EXECUTABLE=/usr/bin/python3 -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/root/autodl-tmp/ros2_ws/install/my_fastbev
+[0.972s] Invoking command in '/root/autodl-tmp/ros2_ws/build/my_fastbev': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /root/miniconda3/bin/cmake --build /root/autodl-tmp/ros2_ws/build/my_fastbev -- -j192 -l192
+[1.084s] [100%] Built target fastbev_node
+[1.099s] Invoked command in '/root/autodl-tmp/ros2_ws/build/my_fastbev' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /root/miniconda3/bin/cmake --build /root/autodl-tmp/ros2_ws/build/my_fastbev -- -j192 -l192
+[1.161s] Invoking command in '/root/autodl-tmp/ros2_ws/build/my_fastbev': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /root/miniconda3/bin/cmake --install /root/autodl-tmp/ros2_ws/build/my_fastbev
+[1.208s] -- Install configuration: "Release"
+[1.209s] -- Execute custom install script
+[1.210s] -- Up-to-date symlink: /root/autodl-tmp/ros2_ws/install/my_fastbev/lib/my_fastbev/fastbev_node
+[1.210s] -- Up-to-date symlink: /root/autodl-tmp/ros2_ws/install/my_fastbev/share/ament_index/resource_index/package_run_dependencies/my_fastbev
+[1.210s] -- Up-to-date symlink: /root/autodl-tmp/ros2_ws/install/my_fastbev/share/ament_index/resource_index/parent_prefix_path/my_fastbev
+[1.211s] -- Up-to-date symlink: /root/autodl-tmp/ros2_ws/install/my_fastbev/share/my_fastbev/environment/ament_prefix_path.sh
+[1.211s] -- Up-to-date symlink: /root/autodl-tmp/ros2_ws/install/my_fastbev/share/my_fastbev/environment/ament_prefix_path.dsv
+[1.211s] -- Up-to-date symlink: /root/autodl-tmp/ros2_ws/install/my_fastbev/share/my_fastbev/environment/path.sh
+[1.211s] -- Up-to-date symlink: /root/autodl-tmp/ros2_ws/install/my_fastbev/share/my_fastbev/environment/path.dsv
+[1.212s] -- Up-to-date symlink: /root/autodl-tmp/ros2_ws/install/my_fastbev/share/my_fastbev/local_setup.bash
+[1.212s] -- Up-to-date symlink: /root/autodl-tmp/ros2_ws/install/my_fastbev/share/my_fastbev/local_setup.sh
+[1.212s] -- Up-to-date symlink: /root/autodl-tmp/ros2_ws/install/my_fastbev/share/my_fastbev/local_setup.zsh
+[1.213s] -- Up-to-date symlink: /root/autodl-tmp/ros2_ws/install/my_fastbev/share/my_fastbev/local_setup.dsv
+[1.213s] -- Symlinking: /root/autodl-tmp/ros2_ws/install/my_fastbev/share/my_fastbev/package.dsv
+[1.218s] -- Up-to-date symlink: /root/autodl-tmp/ros2_ws/install/my_fastbev/share/ament_index/resource_index/packages/my_fastbev
+[1.219s] -- Up-to-date symlink: /root/autodl-tmp/ros2_ws/install/my_fastbev/share/my_fastbev/cmake/my_fastbevConfig.cmake
+[1.219s] -- Up-to-date symlink: /root/autodl-tmp/ros2_ws/install/my_fastbev/share/my_fastbev/cmake/my_fastbevConfig-version.cmake
+[1.219s] -- Up-to-date symlink: /root/autodl-tmp/ros2_ws/install/my_fastbev/share/my_fastbev/package.xml
+[1.226s] Invoked command in '/root/autodl-tmp/ros2_ws/build/my_fastbev' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /root/miniconda3/bin/cmake --install /root/autodl-tmp/ros2_ws/build/my_fastbev
