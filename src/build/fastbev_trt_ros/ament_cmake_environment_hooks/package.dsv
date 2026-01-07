@@ -1,0 +1,4 @@
+source;share/fastbev_trt_ros/local_setup.bash
+source;share/fastbev_trt_ros/local_setup.dsv
+source;share/fastbev_trt_ros/local_setup.sh
+source;share/fastbev_trt_ros/local_setup.zsh
